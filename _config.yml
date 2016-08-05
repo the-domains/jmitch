@@ -1,28 +1,40 @@
-name: jmitch
-favicon: null
-layout_spectrum: 0.8426864065695554
-typography_spectrum: 0.6707563688978553
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#3C493F'
-    - '#7E8D85'
-    - '#B3BFB8'
-    - '#F0F7F4'
-    - '#A2E3C4'
-  brandStrength: 0.7794998676981777
-  lightness: 0.48369103972800076
-  saturation: 0.11549318651668727
-  rhythmicContrast: 0.2107199290767312
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.1154931865166873
+  brandStrength: 0.7794998676981777
+  lightness: 0.4836910397280008
+  brandColors:
+    - '#FFFFFF'
+    - '#25232C'
+    - '#74534B'
+    - '#FF8656'
+    - '#C1D064'
+  rhythmicContrast: 0.2107199290767312
+typography_spectrum: 0.6648746
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.003584229
+favicon: null
+name: jmitch
